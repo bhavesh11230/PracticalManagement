@@ -1,0 +1,20 @@
+{
+  "name": "pmanagement",
+  "version": "1.0.0",
+  "description": "Practical Management System",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "cd api && node index.js",
+    "dev": "cd api && nodemon index.js"
+  },
+  "author": "Bhavesh Rajput",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.8.3",
+    "node": "^20.18.1",
+    "nodemon": "^3.1.7"
+  }
+}
